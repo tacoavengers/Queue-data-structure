@@ -22,7 +22,7 @@ Dequeue: the process of removing an element from the queue. To remove the elemen
 
 #### Queues and lists
 
-A simple queue append example
+A simple queue append example.  This builds a list from left to right.
 
 ```
 queue = []
@@ -39,6 +39,14 @@ To remove the number 10 from the list
 queue.pop(0)
 ```
 
-To insert from 
+A simple insert example.  This builds a list from right to left.
+```
+queue = []
+queue.insert(0, 10)
+queue.insert(0, 20)
+queue.insert(0, 30)
+queue.insert(0, 40)
 
+print(queue) // [40, 30, 20, 10]
+```
 
