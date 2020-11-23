@@ -15,9 +15,10 @@ added first                                     added last
 
 It is also possible to reverse the order.  For instance, remove 90 first and then so on down the line.    
 
-Enque: the process of adding an element to the queue.    
-Dequeue: the process of removing an element from the queue.
+Enque: the process of adding an element to the queue.  Append method. 
+Dequeue: the process of removing an element from the queue. Pop method.  To remove the element from the front we use ```.pop(0)``` and to remove from the end ```.pop()```
 
 
 #### Queues and lists
+
 
