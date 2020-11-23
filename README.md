@@ -15,7 +15,9 @@ added first                                     added last
 
 It is also possible to reverse the order.  For instance, remove 90 first and then so on down the line.    
 
-The procecess of adding an element to the queue is called ```enqueue``` and the process of removing is ```dequeue```
+Enque: the process of adding an element to the queue.    
+Dequeue: the process of removing an element from the queue.
+
 
 #### Queues and lists
 
