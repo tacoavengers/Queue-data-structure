@@ -1,6 +1,8 @@
 # Queue-data-structure
 Queue data structure
 
+### Overview
+
 FIFI: First In First Out    
 LILO: Last In Last Out
 
@@ -14,3 +16,6 @@ added first                                     added last
 It is also possible to reverse the order.  For instance, remove 90 first and then so on down the line.    
 
 The procecess of adding an element to the queue is called ```enqueue``` and the process of removing is ```dequeue```
+
+#### Queues and lists
+
