@@ -10,3 +10,7 @@ This works just like a movie line.  The first person in line will be the first p
 added first                                     added last
     10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> 80 -> 90
 ```
+
+It is also possible to reverse the order.  For instance, remove 90 first and then so on down the line.    
+
+The procecess of adding an element to the queue is called ```enqueue``` and the process of removing is ```dequeue```
