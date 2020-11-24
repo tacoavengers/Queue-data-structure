@@ -108,6 +108,8 @@ We can ```popleft()``` items off from the left.  We can ```pop()``` off items fr
 
 #### Double-ended queue example
 
+* appendleft()
+
 ```
 import collections
 
@@ -118,4 +120,18 @@ q.appendleft(20)
 q.appendleft(30)
 
 print(q) // deque([30, 20, 10])
+```
+
+append()
+
+```
+import collections
+
+q = collections.queue()
+
+q.append(10)
+q.append(20)
+q.append(30)
+
+print(q) // deque([10, 20, 30])
 ```
