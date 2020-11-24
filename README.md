@@ -103,8 +103,19 @@ The double-ended que.  This allows us to append or pop elements from either side
  popleft() ->  ----------------------------------- <- pop()
 
 ```
-So, we can use appendleft() to append items to the right.  We can use append() to append items to the left.    
-We can popleft() items off from the left.  We can pop() off items from the right.  
+So, we can use ```appendleft()``` to append items to the left.  We can use ```append()``` to append items to the right.    
+We can ```popleft()``` items off from the left.  We can ```pop()``` off items from the right.  
 
 #### Double-ended queue example
 
+```
+import collections
+
+q = collections.queue()
+
+q.appendleft(10)
+q.appendleft(20)
+q.appendleft(30)
+
+print(q) // deque([30, 20, 10])
+```
