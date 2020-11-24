@@ -33,13 +33,13 @@ queue.append(40)
 
 print(queue)  // [10, 20, 30, 40]
 ```
-To remove the number 10 from the list
+* To remove the number 10 from the list
 
 ```
 queue.pop(0)
 ```
 
-A simple insert example.  This builds a list from right to left.
+* A simple insert example.  This builds a list from right to left.
 ```
 queue = []
 queue.insert(0, 10)
@@ -49,12 +49,12 @@ queue.insert(0, 40)
 
 print(queue) // [40, 30, 20, 10]
 ```
-To remove the number 10 from the list
+* To remove the number 10 from the list
 ```
 queue.pop()
 ```
 
-To check if the queue is empty
+* To check if the queue is empty
 ```
 not queue
 ```
