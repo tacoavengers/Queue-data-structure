@@ -49,4 +49,13 @@ queue.insert(0, 40)
 
 print(queue) // [40, 30, 20, 10]
 ```
+To remove the number 10 from the list
+```
+queue.pop()
+```
+
+To check if the queue is empty
+```
+not queue
+```
 
