@@ -95,7 +95,7 @@ while True:
 
 ### Queue using classes
 
-Adding and deleting elements from the queue comes with choices
+The double ended que.  This allows us to append or pop elements from either side of the list.  In doing so, we are required to ```import collections``` from the python libary.
 
 ```
  appendleft() -> --------------------------------- <- append()
