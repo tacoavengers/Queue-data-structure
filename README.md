@@ -143,3 +143,9 @@ q.append(30)
 
 print(q) // deque([10, 20, 30])
 ```
+
+
+### Example
+
+
+
