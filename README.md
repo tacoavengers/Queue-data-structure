@@ -122,7 +122,7 @@ q.appendleft(30)
 print(q) // deque([30, 20, 10])
 ```
 
-append()
+* append()
 
 ```
 import collections
