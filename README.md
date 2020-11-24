@@ -7,6 +7,8 @@ https://repl.it/@webdevdave/Queue-data-structure#main.py
 FIFI: First In First Out    
 LILO: Last In Last Out
 
+
+
 This works just like a movie line.  The first person in line will be the first person to get their ticket. Last person will be the last one to get their ticket. 
 
 ```
@@ -19,6 +21,11 @@ It is also possible to reverse the order.  For instance, remove 90 first and the
 Enque: the process of adding an element to the queue.  Use ```.append()``` method.    
 
 Dequeue: the process of removing an element from the queue. To remove the element from the front we use ```.pop(0)``` and to remove from the end ```.pop()```
+
+### Stacks vs Queues
+
+* Queue: FIFO/LILO   -> A line of people
+* Stack: LIFO/FILO   -> A stack of plates
 
 
 #### Queues and lists
