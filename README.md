@@ -61,6 +61,8 @@ not queue
 
 #### A simple example with user input
 ```
+queue = []
+
 def enqueue():
     element = input("Enter the element:")
     queue.append(element)
