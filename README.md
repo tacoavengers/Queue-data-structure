@@ -93,3 +93,15 @@ while True:
         print("Enter the correct operation")
 ```
 
+### Queue using classes
+
+Adding and deleting elements from the queue comes with choices
+
+```
+ appendleft() -> --------------------------------- <- append()
+ 
+ popleft() ->  ----------------------------------- <- pop()
+
+```
+So, we can use appendleft() to append items to the right.  We can use append() to append items to the left.    
+We can popleft() items off from the left.  We can pop() off items from the right.  
