@@ -22,7 +22,7 @@ Dequeue: the process of removing an element from the queue. To remove the elemen
 
 #### Queues and lists
 
-A simple queue append example.  This builds a list from left to right.
+* A simple queue append example.  This builds a list from left to right.
 
 ```
 queue = []
