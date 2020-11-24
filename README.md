@@ -59,3 +59,35 @@ queue.pop()
 not queue
 ```
 
+#### A simple example with user input
+```
+def enqueue():
+    element = input("Enter the element:")
+    queue.append(element)
+    print(element, "is added to queue")
+    
+def dequeue():
+    if not queue:
+        print("the queue is empty")
+    else:
+        e = queue.pop(0)
+        print("removed element: ", e)
+        
+def display():
+    print(queue)
+    
+while True:
+    print("Select the operation 1. add 2. remove 3. show 4. quit")
+    choice = int(input())
+    if choice == 1:
+        enqueue()
+    if choice == 2:
+        dequeue()
+    if choice == 3:
+        display()
+    if choice == 4:
+        break
+    else:
+        print("Enter the correct operation")
+```
+
